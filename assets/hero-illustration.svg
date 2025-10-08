@@ -1,0 +1,62 @@
+<svg width="600" height="400" viewBox="0 0 600 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Elements -->
+  <circle cx="300" cy="200" r="180" fill="#F0F9FF"/>
+  <circle cx="300" cy="200" r="150" fill="#E1F5FE" opacity="0.7"/>
+  
+  <!-- Dashboard Element -->
+  <rect x="150" y="100" width="300" height="200" rx="10" fill="white" stroke="#39AFFF" stroke-width="2"/>
+  
+  <!-- Dashboard Header -->
+  <rect x="150" y="100" width="300" height="40" rx="10" fill="#39AFFF"/>
+  <circle cx="170" cy="120" r="5" fill="white"/>
+  <circle cx="190" cy="120" r="5" fill="white"/>
+  <circle cx="210" cy="120" r="5" fill="white"/>
+  
+  <!-- Dashboard Content -->
+  <!-- Graph -->
+  <rect x="170" y="160" width="120" height="80" rx="5" fill="#F7F7F7"/>
+  <path d="M180 220 L190 200 L210 210 L230 180 L250 190 L270 170" stroke="#39AFFF" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Pie Chart -->
+  <circle cx="350" cy="180" r="40" fill="#F7F7F7"/>
+  <path d="M350 180 L350 140 A40 40 0 0 1 390 180 Z" fill="#39AFFF"/>
+  <path d="M350 180 L390 180 A40 40 0 0 1 370 215 Z" fill="#212121"/>
+  <path d="M350 180 L370 215 A40 40 0 0 1 330 215 Z" fill="#90CAF9"/>
+  <path d="M350 180 L330 215 A40 40 0 0 1 350 140 Z" fill="#E1F5FE"/>
+  
+  <!-- AI Elements -->
+  <circle cx="420" cy="80" r="30" fill="#39AFFF" opacity="0.2"/>
+  <path d="M420 60 L420 100 M400 80 L440 80" stroke="#39AFFF" stroke-width="2"/>
+  
+  <!-- Connection Lines -->
+  <path d="M420 110 L380 140" stroke="#39AFFF" stroke-width="1" stroke-dasharray="4 2"/>
+  <path d="M180 80 L220 100" stroke="#39AFFF" stroke-width="1" stroke-dasharray="4 2"/>
+  
+  <!-- Chat Bubbles -->
+  <rect x="100" y="250" width="100" height="40" rx="20" fill="#F7F7F7"/>
+  <rect x="400" y="270" width="120" height="40" rx="20" fill="#39AFFF"/>
+  
+  <!-- People Icons -->
+  <circle cx="80" cy="270" r="15" fill="#212121"/>
+  <circle cx="500" cy="290" r="15" fill="#212121"/>
+  
+  <!-- Automation Gears -->
+  <circle cx="130" cy="130" r="20" fill="#F7F7F7" stroke="#212121" stroke-width="2"/>
+  <circle cx="130" cy="130" r="10" fill="#F7F7F7" stroke="#212121" stroke-width="2"/>
+  <path d="M130 110 L130 105 M145 115 L150 110 M145 145 L150 150 M130 150 L130 155 M115 145 L110 150 M115 115 L110 110" stroke="#212121" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Devices -->
+  <rect x="450" y="130" width="40" height="60" rx="5" fill="#212121"/>
+  <rect x="455" y="135" width="30" height="40" rx="2" fill="white"/>
+  <rect x="465" y="180" width="10" height="5" rx="2" fill="white"/>
+  
+  <!-- Arrows Indicating Flow -->
+  <path d="M300 320 L350 320 L340 310 M350 320 L340 330" stroke="#212121" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M200 320 L150 320 L160 310 M150 320 L160 330" stroke="#212121" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Text Elements (Represented as Rectangles) -->
+  <rect x="170" y="250" width="80" height="5" rx="2" fill="#212121"/>
+  <rect x="170" y="260" width="60" height="5" rx="2" fill="#212121"/>
+  <rect x="410" y="250" width="70" height="5" rx="2" fill="white"/>
+  <rect x="410" y="260" width="50" height="5" rx="2" fill="white"/>
+</svg>

@@ -1,0 +1,171 @@
+/* Estilos para a seção de Glossário */
+.glossary-section {
+    padding: 100px 0;
+    background-color: #F7F7F7;
+    position: relative;
+}
+
+.glossary-grid {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    gap: 40px;
+    align-items: start;
+}
+
+/* Lado esquerdo */
+.glossary-left {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    position: sticky;
+    top: 100px;
+}
+
+.glossary-badge {
+    display: inline-block;
+    background-color: #333333;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 0.75rem;
+    padding: 4px 10px;
+    border-radius: 9999px;
+    letter-spacing: 0.4px;
+    width: fit-content;
+}
+
+.glossary-title {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: var(--dark);
+    margin-bottom: 10px;
+}
+
+.glossary-description {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: var(--gray);
+    max-width: 100%;
+}
+
+/* Lado direito - Acordeão */
+.accordion-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.accordion-item {
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.accordion-header {
+    padding: 20px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    transition: background-color 0.3s ease;
+}
+
+.accordion-header:hover {
+    background-color: rgba(57, 175, 255, 0.05);
+}
+
+.accordion-header h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--dark);
+    margin: 0;
+}
+
+.accordion-icon {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+.accordion-icon::before,
+.accordion-icon::after {
+    content: '';
+    position: absolute;
+    background-color: var(--primary);
+    transition: all 0.3s ease;
+}
+
+.accordion-icon::before {
+    width: 2px;
+    height: 16px;
+    top: 4px;
+    left: 11px;
+}
+
+.accordion-icon::after {
+    width: 16px;
+    height: 2px;
+    top: 11px;
+    left: 4px;
+}
+
+.accordion-item.active .accordion-icon::before {
+    transform: rotate(90deg);
+    opacity: 0;
+}
+
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 24px;
+    transition: all 0.3s ease;
+}
+
+.accordion-item.active .accordion-content {
+    max-height: 500px; /* Altura máxima do conteúdo expandido */
+    padding: 0 24px 24px;
+}
+
+.accordion-content p {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--gray);
+}
+
+/* Responsividade */
+@media (max-width: 991px) {
+    .glossary-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .glossary-left {
+        position: static;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .glossary-section {
+        padding: 60px 0;
+    }
+    
+    .glossary-title {
+        font-size: 2rem;
+    }
+    
+    .accordion-header {
+        padding: 16px 20px;
+    }
+    
+    .accordion-content {
+        padding: 0 20px;
+    }
+    
+    .accordion-item.active .accordion-content {
+        padding: 0 20px 20px;
+    }
+}
