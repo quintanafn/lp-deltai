@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://grupodeltai.com.br/sitemap.xml
+Sitemap: https://grupodeltai.com.br/image-sitemap.xml

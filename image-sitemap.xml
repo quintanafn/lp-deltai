@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://grupodeltai.com.br/</loc>
+    <image:image>
+      <image:loc>https://grupodeltai.com.br/assets/images/logodeltaigheader.png</image:loc>
+      <image:title>Logo DeltAI (Header)</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://grupodeltai.com.br/assets/images/logodeltaigfooter2.png</image:loc>
+      <image:title>Logo DeltAI (Footer)</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://grupodeltai.com.br/assets/favicon.png</image:loc>
+      <image:title>Favicon DeltAI</image:title>
+    </image:image>
+    <!-- Logos de clientes -->
+    <image:image><image:loc>https://grupodeltai.com.br/assets/images/1.png</image:loc><image:title>Cliente 1</image:title></image:image>
+    <image:image><image:loc>https://grupodeltai.com.br/assets/images/2.png</image:loc><image:title>Cliente 2</image:title></image:image>
+    <image:image><image:loc>https://grupodeltai.com.br/assets/images/3.png</image:loc><image:title>Cliente 3</image:title></image:image>
+    <image:image><image:loc>https://grupodeltai.com.br/assets/images/4.png</image:loc><image:title>Cliente 4</image:title></image:image>
+    <image:image><image:loc>https://grupodeltai.com.br/assets/images/5.png</image:loc><image:title>Cliente 5</image:title></image:image>
+    <image:image><image:loc>https://grupodeltai.com.br/assets/images/6.png</image:loc><image:title>Cliente 6</image:title></image:image>
+    <image:image><image:loc>https://grupodeltai.com.br/assets/images/7.png</image:loc><image:title>Cliente 7</image:title></image:image>
+    <image:image><image:loc>https://grupodeltai.com.br/assets/images/8.png</image:loc><image:title>Cliente 8</image:title></image:image>
+    <image:image><image:loc>https://grupodeltai.com.br/assets/images/9.png</image:loc><image:title>Cliente 9</image:title></image:image>
+    <image:image><image:loc>https://grupodeltai.com.br/assets/images/10.png</image:loc><image:title>Cliente 10</image:title></image:image>
+    <image:image><image:loc>https://grupodeltai.com.br/assets/images/11.png</image:loc><image:title>Cliente 11</image:title></image:image>
+    <image:image><image:loc>https://grupodeltai.com.br/assets/images/12.png</image:loc><image:title>Cliente 12</image:title></image:image>
+    <image:image><image:loc>https://grupodeltai.com.br/assets/images/13.png</image:loc><image:title>Cliente 13</image:title></image:image>
+    <!-- Outras imagens -->
+    <image:image><image:loc>https://grupodeltai.com.br/assets/images/qwe1.jpg</image:loc><image:title>Imagem qwe1</image:title></image:image>
+    <image:image><image:loc>https://grupodeltai.com.br/assets/images/qwe2.jpeg</image:loc><image:title>Imagem qwe2</image:title></image:image>
+    <image:image><image:loc>https://grupodeltai.com.br/assets/images/qwe3.webp</image:loc><image:title>Imagem qwe3</image:title></image:image>
+    <image:image><image:loc>https://grupodeltai.com.br/assets/images/qwe4.jpeg</image:loc><image:title>Imagem qwe4</image:title></image:image>
+    <image:image><image:loc>https://grupodeltai.com.br/assets/images/PNG%20-%2012.png</image:loc><image:title>PNG 12</image:title></image:image>
+    <image:image><image:loc>https://grupodeltai.com.br/assets/images/PNG%20-%2013.png</image:loc><image:title>PNG 13</image:title></image:image>
+  </url>
+</urlset>

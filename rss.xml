@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Grupo DeltAI</title>
+    <link>https://grupodeltai.com.br/</link>
+    <description>Landing page e novidades do Grupo DeltAI.</description>
+    <language>pt-BR</language>
+    <lastBuildDate>Thu, 09 Oct 2025 02:08:00 -0300</lastBuildDate>
+    <ttl>1800</ttl>
+
+    <item>
+      <title>Lançamento do site</title>
+      <link>https://grupodeltai.com.br/</link>
+      <guid isPermaLink="false">launch-2025-10-08</guid>
+      <pubDate>Thu, 09 Oct 2025 02:00:00 -0300</pubDate>
+      <description>O site do Grupo DeltAI está no ar com foco em processos, automação e IA.</description>
+    </item>
+  </channel>
+</rss>

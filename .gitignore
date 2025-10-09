@@ -41,3 +41,4 @@ yarn-error.log*
 
 # Arquivos específicos do projeto
 .windsurf/
+.vercel
